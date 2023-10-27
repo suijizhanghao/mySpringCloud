@@ -1,1 +1,5 @@
-spring.flyway.enabled=false
+management:
+  endpoint:
+    flyway:
+      enabled: false
+      
