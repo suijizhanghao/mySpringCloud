@@ -1,0 +1,18 @@
+# Project exclude paths
+/base/target/
+/manager/target/
+/manager/logs/
+.classpath
+.gradle/
+.project
+.settings/
+/build/
+/bin/
+/logs/
+
+/test2/target/
+/.idea
+/base/base.iml
+/manager/manager.iml
+/test2/test2.iml
+/myspringbatch/target/

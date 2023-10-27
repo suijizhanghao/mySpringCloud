@@ -1,0 +1,6 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  main:
+    web-application-type: SERVLET

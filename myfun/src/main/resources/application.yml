@@ -1,0 +1,32 @@
+spring:
+#  flyway:
+#    enabled: true
+  datasource:
+    url: jdbc:mysql://124.223.221.96:3306/my_db?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      maximum-pool-size: 15
+      minimum-idle: 2
+      idle-timeout: 30000
+  flyway:
+    create-schemas: true
+
+
+#  devtools:
+#    add-properties: true
+#  autoconfigure:
+#    exclude:
+#    - org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchRepositoriesAutoConfiguration
+#    - org.springframework.boot.autoconfigure.jms.activemq.ActiveMQAutoConfiguration
+
+debug: true
+myfun:
+  a: MYFUN(bbb)
+jasypt:
+  encryptor:
+    property:
+      prefix: MYFUN(
+    bean: "myFunJasypt"
