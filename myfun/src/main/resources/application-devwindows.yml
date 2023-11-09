@@ -4,3 +4,4 @@ spring:
       enabled: true
   main:
     web-application-type: SERVLET
+    log-startup-info: true

@@ -13,6 +13,8 @@ spring:
       idle-timeout: 30000
   flyway:
     create-schemas: true
+  main:
+    lazy-initialization: false  # 默认是false
 
 
 #  devtools:
