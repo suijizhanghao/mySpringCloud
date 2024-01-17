@@ -18,6 +18,7 @@
 
     <modules>
         <module>myfun</module>
+        <module>Eureka</module>
     </modules>
 
     <name>mySpringCloud</name>
